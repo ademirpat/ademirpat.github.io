@@ -1,30 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ademir</title>
     <!-- bibliotecas -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <!-- Meus estilos -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+
+<body data-bs-theme="dark">
     <!-- nome e botão -->
-    <nav>
-        <!-- nome -->
-        <h2>ss</h2>
-        <!-- botão dark mode -->
-        <button></button>
+    <nav class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <!-- nome -->
+                <div class="col-6 text-light">
+                    <h2>Ademir</h2>
+                </div>
+
+                <!-- botão dark mode -->
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn text-light">
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
     </nav>
     <!-- mini bio e foto -->
     <header>
-        <!-- mini bio -->
-        <!-- foto -->
-        <!-- github e linkedin -->
+        <div class="container">
+            <div class="row">
+                <!-- mini bio -->
+                <div class="p-3 col-sm-6 align-self-center">
+                    <h1>
+                        Full-stacks
+                    </h1>
+                    <p>
+                        Sempre a procura de novos desafios.
+                        Iniciante no mundo do desenvolvimento, estou sempre me propondo a novos desafios.
+                    </p>
+                </div>
+                <!-- foto -->
+                <div class="col-sm-6">
+                    <img class="img-thumbnail border-none" src="./assets/img/homem-com-os-bracos-cruzados.jpg"
+                        alt="ademir">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!-- github e linkedin -->
+                <div class="col-6 d-flex justify-content-end">
+                    <a href="https://github.com/ademirpat" target="blank" type="button" class="btn btn-primary">
+                        <!-- ícone -->
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+                <!-- ícone -->
+                <div class="col-6">
+                    <a href="https://www.linkedin.com/in/ademir-barroso-86a3667b/" target="blank" type="button"
+                        class="btn btn-primary">
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </header>
     <main>
         <!-- tecnologias -->
@@ -33,13 +90,48 @@
         <section></section>
 
     </main>
-    <!-- telefone, e-mai, github e linkedin -->
-    <footer></footer>
+
+    <footer>
+        <!-- telefone, e-mai, github e linkedin -->
+        <div class="p-5">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa-solid fa-phone"></i>
+                                Telefone : (85) 996667984
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                Email : ademir.barroso3@gmail.com
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub : /ademirpat
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                                LinkedIn : in/ademir-barroso
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <!-- direitos autorais -->
+        <section class="text-center p-3 bg-dark-subtle">
+            <span class="mb-3 mb-md-0 text-body-secondary">
+                © 2023 Company, Inc</span>
+        </section>
+    </footer>
 
     <!-- bibliotecas de scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
     <!-- Meus scripts -->
 
 </body>
+
 </html>
